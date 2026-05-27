@@ -38,8 +38,8 @@
       "settings": {
         "image": "shopify://shop_images/Frame_1.png",
         "image_overlay_opacity": 40,
-        "image_height": "large",
-        "image_behavior": "none",
+        "image_height": "small",
+        "image_behavior": "fixed",
         "desktop_content_position": "bottom-center",
         "desktop_content_alignment": "center",
         "show_text_box": false,
@@ -76,10 +76,54 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "rich_text_F9chXi": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iUJh6W": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_ijGg4m": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_iaVUjF": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_iUJh6W",
+        "text_ijGg4m",
+        "button_iaVUjF"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "featured_collection",
+    "rich_text_F9chXi"
   ]
 }
